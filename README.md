@@ -12,6 +12,7 @@ Follow the steps below to run the application. For reference, several screenshot
 - Navigate to backend directory and install dependencies and run developemnt server
 ```bash
 cd backend
+cp env.example .env
 npm install
 npm run dev
 ```
@@ -22,6 +23,7 @@ The API will be available at `http://localhost:3000`
 - Navigate to frontend directory and install dependencies and run server
 ```bash
 cd frontend
+cp env.example .env
 npm install
 npm run dev
 ```
